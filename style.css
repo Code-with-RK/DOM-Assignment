@@ -1,0 +1,121 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-image: url('img/background\ img.jpg');
+}
+
+.header {
+    text-align: center;
+    justify-items: center;
+    color: rgb(97, 249, 9);
+    margin-top: 15px;
+}
+
+div.studentname {
+    margin-top: 10px;
+}
+
+/* Table Section CSS */
+
+.tableheader {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 300px;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    color: rgb(241, 241, 87);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+input {
+    background-color: azure;
+    border-radius: 8px;
+}
+
+.table {
+    height: auto;
+    width: auto;
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(241, 241, 87);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border-color: greenyellow;
+    border-width: 5px;
+    float: inline-end;
+}
+
+thead {
+    color: aqua;
+    border-color: greenyellow;
+    border-width: 20px;
+    margin: auto;
+}
+
+tr {
+    border-color: greenyellow;
+    border-width: 20px;
+}
+
+tr input {
+    border-color: greenyellow;
+    border-width: 3px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: rgb(63, 239, 180);
+    border-radius: 20px;
+}
+
+.btn-danger {
+    color: black;
+    background-color: rgb(245, 81, 81);
+    border-radius: 20px;
+}
+
+.btn-success:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+}
+
+#savedata:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Scroll Bar CSS */
+
+
+.scroll-div {
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll-object {
+    color: wheat;
+
+}
+
+
